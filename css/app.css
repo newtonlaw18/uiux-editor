@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #00c6ff, #0072ff); }
+
+.logo {
+  margin-top: 4%; }
+
+h2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; }
+
+.card-wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 3% 13%; }
+
+.card {
+  width: 398px;
+  height: 563px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15); }
+
+.card:hover {
+  transform: scale(1.05, 1.05); }
+
+.card > img {
+  width: 100%; }
+
+.card-block > button {
+  width: 217px;
+  height: 46px;
+  border-radius: 100px;
+  box-shadow: 0 2px 11px 3px rgba(0, 0, 0, 0.14);
+  color: #ffffff;
+  font-family: Montserrat; }
+
+#personal-card {
+  display: inline-block;
+  float: left;
+  margin: 0 2.5%; }
+
+#personal-card > img {
+  background-color: #6244a4; }
+
+#personal-card button {
+  background-color: #6143a3; }
+
+#personal-card .card-title {
+  color: #6244a4; }
+
+#personal-card .card-examples {
+  color: #6244a4; }
+
+#business-card {
+  display: inline-block;
+  float: left;
+  margin: 0 2.5%;
+  /*margin-left: 5%;
+  margin-right: 15%;*/ }
+
+#business-card > img {
+  background-color: #498f74;
+  height: 230.13px; }
+
+#business-card button {
+  background-color: #498f78; }
+
+#business-card .card-title {
+  color: #498f78; }
+
+#business-card .card-examples {
+  color: #498f78; }
+
+.card-block {
+  text-align: center; }
+
+.uiux {
+  font-family: Montserrat;
+  font-size: 14.5px;
+  font-weight: bold;
+  text-align: center;
+  color: #adadad; }
+
+.card-title {
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 0;
+  text-align: center; }
+
+.card-text {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #262626; }
+
+.card-examples {
+  font-family: Montserrat;
+  font-size: 14.5px;
+  text-align: center; }
+
+/*# sourceMappingURL=app.css.map */
