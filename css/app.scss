@@ -14,6 +14,10 @@ body {
 	height: 100%;
   
 }
+.container-fluid{
+	display: table;
+    height: 100vh;
+}
 .col-md-7{
 	padding:0;
 }
@@ -23,6 +27,7 @@ body {
 
 .logo{
 	margin-top: 2%;
+	display: block;
 }
 
 h2{
@@ -38,6 +43,8 @@ h2{
 	position: absolute;
     left: 25%;
     top: 20%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .card{
