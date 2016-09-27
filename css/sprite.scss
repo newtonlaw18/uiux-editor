@@ -1,7 +1,7 @@
-$sprite-file-url: image-url('sprites.png');
+
 
 @mixin bgpos($x-coor, $y-coor){
-	background-position: $x-coor * 64px $y-coor * 64px;
+	background-position: $x-coor * -64px $y-coor * -64px;
 }
 
 [class^="icon-"], [class*=" icon-"]{
@@ -9,11 +9,79 @@ $sprite-file-url: image-url('sprites.png');
 	width: 64px;
 	height: 64px;
 	vertical-align: middle;
-	background-image: $sprite-file-url;
-	background-position: 0 0;
+	background-image: url("sprites.png");
 	background-repeat: no-repeat;
+	@include bgpos(0, 0);
+}
+.icon-logo {
+	@include bgpos(5,4);
 }
 
-.icon-special {
-	@include bgpos(1, 1);
+.icon-personal-logo {
+	@include bgpos(4, 3);
+	
 }
+.icon-business-logo {
+	@include bgpos(5, 3);
+	
+}
+.icon-dropdown{
+	@include bgpos(3,4);
+}
+.icon-release-dropdown{
+	@include bgpos(3,5);
+}
+
+.icon-pencil{
+	@include bgpos(1,6);
+}
+
+.icon-photo-book{
+	@include bgpos(0,0);
+}
+
+.icon-frame-art{
+	@include bgpos(0,1);
+}
+
+.icon-phone-case{
+	@include bgpos(0,2);
+}
+.icon-pillow{
+	@include bgpos(0,3);
+}
+
+.icon-totebag{
+	@include bgpos(0,4);
+}
+.icon-poster{
+	@include bgpos(0,5);
+}
+
+.icon-canvas{
+	@include bgpos(0,6);
+}
+.icon-photo-print{
+	@include bgpos(0,7);
+}
+
+.icon-plus{
+	@include bgpos(1,5);
+}
+
+.icon-minus{
+	@include bgpos(2,5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

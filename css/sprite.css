@@ -3,11 +3,56 @@
   width: 64px;
   height: 64px;
   vertical-align: middle;
-  background-image: url("Sprites/sprites.png");
-  background-position: 0 0;
-  background-repeat: no-repeat; }
+  background-image: url("sprites.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px; }
 
-.icon-special {
-  background-position: 64px 64px; }
+.icon-logo {
+  background-position: -320px -256px; }
+
+.icon-personal-logo {
+  background-position: -256px -192px; }
+
+.icon-business-logo {
+  background-position: -320px -192px; }
+
+.icon-dropdown {
+  background-position: -192px -256px; }
+
+.icon-release-dropdown {
+  background-position: -192px -320px; }
+
+.icon-pencil {
+  background-position: -64px -384px; }
+
+.icon-photo-book {
+  background-position: 0px 0px; }
+
+.icon-frame-art {
+  background-position: 0px -64px; }
+
+.icon-phone-case {
+  background-position: 0px -128px; }
+
+.icon-pillow {
+  background-position: 0px -192px; }
+
+.icon-totebag {
+  background-position: 0px -256px; }
+
+.icon-poster {
+  background-position: 0px -320px; }
+
+.icon-canvas {
+  background-position: 0px -384px; }
+
+.icon-photo-print {
+  background-position: 0px -448px; }
+
+.icon-plus {
+  background-position: -64px -320px; }
+
+.icon-minus {
+  background-position: -128px -320px; }
 
 /*# sourceMappingURL=sprite.css.map */
